@@ -1,4 +1,3 @@
-English
 A Windows utility for managing clipboard history with persistent storage and quick access to frequently used text snippets.
 
 📋 Overview
@@ -62,7 +61,7 @@ Window stays hidden - The main window hides automatically after pasting text
 
 No clipboard interference - The app reads clipboard data without modifying it
 
-Русский
+-----------------------------------------------------------------------------------------------------------------------------------------------
 Утилита для управления историей буфера обмена с возможностью сохранения текста для постоянного использования в работе.
 
 📋 Обзор
