@@ -1,66 +1,3 @@
-A Windows utility for managing clipboard history with persistent storage and quick access to frequently used text snippets.
-
-📋 Overview
-This application monitors your clipboard, maintains a history of copied text, and allows you to save frequently used items to a persistent list. You can quickly paste any saved item into any application using a global hotkey.
-
-✨ Features
-Clipboard History - Automatically tracks and displays text copied to clipboard
-
-Persistent Storage - Save selected items to a local file for future sessions
-
-Quick Access - Double-click or press Enter to paste selected text into the active window
-
-Global Hotkey - Toggle the main window visibility with Ctrl+Shift+V (or Ctrl+F as fallback)
-
-Two-List Interface:
-
-Left List - Current clipboard history (dynamically updated)
-
-Right List - Saved items for permanent reuse
-
-Easy Management - Move items between lists, clear saved items
-
-Automatic Saving - Items in the right list are automatically saved to disk
-
-🚀 How It Works
-Start the application - It runs in the background
-
-Copy text anywhere - The left list updates automatically with clipboard contents
-
-Save important text - Select an item in the left list and click "→" to move it to the right list
-
-Use saved text - Select any item in the right list and press:
-
-Enter - Paste the text into your active application
-
-OK button - Same as Enter
-
-Hide/Show window - Press Ctrl+Shift+V to toggle visibility
-
-🎮 User Interface Controls
-Control	Function
-"Update" button	Refresh left list with current clipboard history
-"→" button	Move selected item from left to right list
-"Erase" button	Clear all items from the right list
-Enter / OK	Paste selected right-list item into active window
-Cancel / Close	Exit the application
-Ctrl+Shift+V	Show/hide application window
-📁 Data Storage
-The right list is automatically saved to clipboard_history.dat in the application directory
-
-File format is binary with length-prefixed strings
-
-Items are preserved between application sessions
-
-💡 Usage Tips
-Keyboard friendly - Use arrow keys and Enter for quick navigation
-
-Hotkey conflict - If Ctrl+Shift+V is taken, the app falls back to Ctrl+F
-
-Window stays hidden - The main window hides automatically after pasting text
-
-No clipboard interference - The app reads clipboard data without modifying it
-
 -----------------------------------------------------------------------------------------------------------------------------------------------
 Утилита для управления историей буфера обмена с возможностью сохранения текста для постоянного использования в работе.
 
@@ -119,9 +56,13 @@ Ctrl+Shift+V	Показать/скрыть окно приложения
 💡 Советы по использованию
 Удобство с клавиатуры - Используйте стрелки и Enter для быстрой навигации
 
+
 Конфликт горячих клавиш - Если Ctrl+Shift+V занята, приложение использует Ctrl+F
 
 Окно скрывается автоматически - После вставки текста окно прячется
 
 Без вмешательства в буфер - Приложение только читает буфер обмена, не изменяя его
+
+<img width="606" height="458" alt="image" src="https://github.com/user-attachments/assets/58578446-31ee-4ad6-a489-2dd0fae379be" />
+
 
